@@ -1,0 +1,78 @@
+
+/*general setting */
+body{
+background-image: url(../img/wall.jpg);
+margin: auto;
+width: 50%;
+}/* fine general setting*/
+/*logo */
+#logo {
+  height: 100px;
+  vertical-align: middle; /* nota: si applica solo alle immagini */
+  line-height: 100px;
+}
+#textlogo {
+  color: white;
+  font-size: 25px;
+/* fine logo */
+/*m*/}
+.counter {
+  width:50px;
+  height: 50px;
+  background-color: orange;
+  border-radius: 50px;
+  text-align: center;
+  vertical-align: middle;
+  display: inline-block;
+}
+hr {
+  margin-top: 0px;
+}
+
+.unreadmail{
+  margin: 5px 0px 8px;
+  line-height: 50px;
+  font-size: 25px;
+  color: white;
+}
+
+/*mail box*/
+.read{
+  background-color: lightgrey;
+  margin: 0px;
+  border: 1px solid black;
+  padding: 2PX;
+  box-sizing: border-box;
+}
+.unread {
+  background-color: white;
+  margin: 0px;
+  border: 1px solid black;
+  padding: 2PX;
+  box-sizing: border-box;
+  margin-top: 0px;
+
+}
+.textobject{
+  font-size: 16px;
+
+}
+.mailtext {
+  color: grey;
+}
+
+/* fine mailbox*/
+#hr-under{
+border: auto;
+margin-top: 8px;
+}
+.credits {
+  text-align: center;
+  margin-top: 1px;
+  font-size: 25px;
+  color: white;
+}
+#author {
+  font-style: oblique;
+  font-size: 15px;
+}
